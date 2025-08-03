@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12576b96cca7248c9a92eb0452e4f393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donutPrefab: {fileID: 0}
+  donutPrefab: {fileID: 8771640546736827143, guid: 137180d4c75b5447ca7bc06ff45b3e43, type: 3}
 --- !u!4 &20144658
 Transform:
   m_ObjectHideFlags: 0
