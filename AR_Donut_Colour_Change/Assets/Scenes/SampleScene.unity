@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12576b96cca7248c9a92eb0452e4f393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donutPrefab: {fileID: 8771640546736827143, guid: 137180d4c75b5447ca7bc06ff45b3e43, type: 3}
+  donutPrefab: {fileID: 968073726626270607, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
 --- !u!4 &20144658
 Transform:
   m_ObjectHideFlags: 0
@@ -262,68 +262,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &764456636
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 968073726626270607, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_Name
-      value: Donut
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.032686684
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1252456
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401529866107909057, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
---- !u!23 &764456637 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5838808478457212144, guid: 68174814b7ae642e2997739f4cc92142, type: 3}
-  m_PrefabInstance: {fileID: 764456636}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &789303479
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1dd32fc9df34f9fabdd32445240707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icingRenderer: {fileID: 764456637}
+  icingRenderer: {fileID: 0}
   icingColors:
   - {r: 0.62076825, g: 0.28368637, b: 0.8018868, a: 0}
   - {r: 0.4906105, g: 0.8742975, b: 0.990566, a: 0}
@@ -770,4 +708,3 @@ SceneRoots:
   - {fileID: 2062605680}
   - {fileID: 20144658}
   - {fileID: 1604381070}
-  - {fileID: 764456636}
