@@ -28,8 +28,11 @@ public class DonutTracker : MonoBehaviour
                 donutInstance.transform.localPosition = Vector3.zero;
 
                 // Fix rotation
-                donutInstance.transform.localEulerAngles = new Vector3(-90, 0, 0);
+                donutInstance.transform.localEulerAngles = new Vector3(90, 0, 0);
             }
         }
     }
 }
+
+
+
