@@ -27,20 +27,30 @@ public class DonutTracker : MonoBehaviour
             {
                 donutInstance = Instantiate(donutPrefab, image.transform);
                 donutInstance.transform.localPosition = Vector3.zero;
-                donutInstance.transform.localEulerAngles = new Vector3(90, 0, 0);// Fix rotation
+                donutInstance.transform.localEulerAngles = new Vector3(90, 0, 0);
 
-                // Get the icing mesh renderer inside the instantiated prefab
-                Renderer icingRenderer = donutInstance.transform.Find("Icing").GetComponent<Renderer>();
-
-                // Get or add the IcingColorChanger script on the donut instance
-                IcingColorChanger icingChanger = donutInstance.GetComponent<IcingColorChanger>();
-                if (icingChanger == null)
-                    icingChanger = donutInstance.AddComponent<IcingColorChanger>();
-
-                // Assign the icingRenderer and define icing colors (optional, or assign via inspector)
-                icingChanger.icingRenderer = icingRenderer;
-                icingChanger.icingColors = new Color[] { Color.red, Color.green, Color.blue, Color.yellow }; // example
+                // Find the IcingColorChanger component in the instantiated prefab
+                var icingColorChanger = donutInstance.GetComponentInChildren<IcingColorChanger>();
+                if (icingColorChanger != null)
+                {
+                    // Find the MeshRenderer of the icing mesh inside the prefab
+                    var icingRenderer = donutInstance.transform.Find("Icing")?.GetComponent<MeshRenderer>();
+                   
+                    if (icingRenderer != null)
+                    {
+                        icingColorChanger.icingRenderer = icingRenderer;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Icing MeshRenderer not found in prefab.");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("IcingColorChanger script not found in prefab.");
+                }
             }
         }
     }
 }
+

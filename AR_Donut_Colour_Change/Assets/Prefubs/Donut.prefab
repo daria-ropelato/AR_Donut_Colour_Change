@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 1377718577851054995}
   - component: {fileID: 5820825139035689848}
   - component: {fileID: 5838808478457212144}
+  - component: {fileID: 3171795386571270078}
   m_Layer: 0
   m_Name: Icing.001
   m_TagString: Icing
@@ -167,3 +168,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3171795386571270078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3051040023119940189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1dd32fc9df34f9fabdd32445240707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icingRenderer: {fileID: 5838808478457212144}
+  icingColors: []
