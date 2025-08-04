@@ -12,13 +12,13 @@ The goal of this project is to explore interactive augmented reality (AR) experi
 
 # 🍩 Technologies Used
 
-- **Blender**: For modeling the 3D donut (base, icing, sprinkles)
-- **Unity**: Game engine used to build the AR application
-- **AR Foundation**: Unity package for building cross-platform AR experiences
-- **ARKit XR Plugin**: Enables AR on iOS devices using Apple’s ARKit
-- **Xcode**: Apple’s IDE used to build and deploy to iPhones
-- **PNG Marker**: A digital image used as a marker for tracking
-- **C# Scripting**: Used for managing AR image detection and model instantiation
+- **Blender**: For modeling the 3D donut (base, icing, sprinkles).
+- **Unity**: Game engine used to build the AR application.
+- **AR Foundation**: Unity package for building cross-platform AR experiences.
+- **ARKit XR Plugin**: Enables AR on iOS devices using Apple’s ARKit.
+- **Xcode**: Apple’s IDE used to build and deploy to iPhones.
+- **PNG Marker**: A digital image used as a marker for tracking.
+- **C# Scripting**: Used for managing AR image detection and model instantiation.
 
 # 🍩 Possible Upgrades
 - Add a color picker UI for manual icing selection.
